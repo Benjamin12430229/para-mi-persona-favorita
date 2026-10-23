@@ -1,0 +1,29 @@
+# Página romántica de Benja 💗
+
+## Archivos
+- `index.html`: contenido y estructura.
+- `style.css`: colores, diseño y animaciones.
+- `script.js`: contador, carta, música y corazones.
+- `fotos/`: guardá acá las fotos de ustedes.
+
+## Cómo abrirla en tu PC
+1. Descomprimí la carpeta `benja_pagina_romantica`.
+2. Abrí Visual Studio Code.
+3. Elegí **Archivo > Abrir carpeta** y seleccioná esta carpeta.
+4. Abrí `index.html`. Para ver cambios con actualización automática, instalá la extensión **Live Server** en VS Code, hacé clic derecho en `index.html` y elegí **Open with Live Server**.
+
+## Personalizaciones importantes
+1. En `script.js`, cambiá `FECHA_INICIO = "2025-02-14"` por la fecha real en que empezaron, usando `AAAA-MM-DD`.
+2. En `index.html`, editá la carta dentro de `<article class="love-letter">`.
+3. Poné tres fotos en la carpeta `fotos` con estos nombres exactos:
+   - `foto1.jpg`
+   - `foto2.jpg`
+   - `foto3.jpg`
+   Si tus imágenes son PNG o WebP, cambiá también la extensión en el HTML.
+4. Para probar música, abrí la página y usá el botón para elegir un archivo de audio desde tu PC. Ese selector es solo para probar en tu navegador. Para que tu novia pueda escuchar la canción cuando abra la web publicada, agregá un archivo de audio permitido a la carpeta del proyecto y vinculalo en el HTML, por ejemplo:
+   `<audio controls loop src="musica/nuestra-cancion.mp3"></audio>`
+   Creá una carpeta `musica` y guardá ahí el archivo. Asegurate de tener permiso para compartirlo.
+5. Cambiá los textos, colores y detalles a tu gusto.
+
+## Publicarla gratis
+Podés subir la carpeta del proyecto a un servicio de hosting estático como GitHub Pages o Netlify. Antes de publicarla, revisá qué fotos y datos personales querés compartir públicamente. No subas fotos privadas ni información sensible.

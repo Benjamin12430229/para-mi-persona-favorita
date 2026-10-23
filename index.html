@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff0f5" />
+  <title>Para vos, mi amor 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <header class="hero">
+    <p class="eyebrow">Un regalito para vos que siempre estas conmigo</p>
+    <h1>Para vos, <span>mi Vida</span> 💗</h1>
+    <p class="hero-copy">De todas las casualidades lindas de la vida, vos sos mi favorita.</p>
+    <a class="primary-button" href="#nuestra-historia">Nuestro rinconcito <span>↓</span></a>
+    <div class="hero-flower flower-one" aria-hidden="true">✿</div>
+    <div class="hero-flower flower-two" aria-hidden="true">♡</div>
+  </header>
+
+  <main>
+    <section class="section counter-section" id="nuestra-historia">
+      <p class="eyebrow">DESDE QUE TODO EMPEZÓ</p>
+      <h2>Mi tiempo favorito es <em>con vos</em></h2>
+      <p class="section-intro">Y cada segundo suma un recuerdo más a nuestra historia.</p>
+      <div class="counter-card">
+        <div class="counter-heart">♡</div>
+        <p class="counter-caption">Llevamos juntos...</p>
+        <div class="counter-grid" aria-live="polite">
+          <div><strong id="days">0</strong><span>días</span></div>
+          <div><strong id="hours">00</strong><span>horas</span></div>
+          <div><strong id="minutes">00</strong><span>minutos</span></div>
+          <div><strong id="seconds">00</strong><span>segundos</span></div>
+        </div>
+        <p class="counter-note">Y todavía nos quedan muchísimos momentos por vivir. ✨</p>
+      </div>
+    </section>
+
+    <section class="section letter-section">
+      <p class="eyebrow">ALGO QUE QUIERO DECIRTE</p>
+      <h2>Una carta <em>para vos</em></h2>
+      <p class="section-intro">Tocá la cartita, asi abris tu regalito</p>
+      <button class="envelope-button" id="envelopeButton" aria-expanded="false" aria-controls="loveLetter">
+        <span class="envelope" aria-hidden="true">
+          <span class="envelope-back"></span>
+          <span class="letter-paper"><span>Para mi persona favorita en el mundo 💌</span></span>
+          <span class="envelope-front"></span>
+          <span class="envelope-flap"></span>
+          <span class="envelope-heart">♥</span>
+        </span>
+        <span class="envelope-hint" id="envelopeHint">Abrir mi cartita waaa</span>
+      </button>
+      <article class="love-letter" id="loveLetter" hidden>
+        <p class="letter-date">PARA VOS, CON TODO MI AMOR</p>
+        <h3>Sos mi mundo entero💗</h3>
+        <p>Con esta cartita quiero decirte que sos lo mas lindo que me paso en mi vida</p>
+        <p>Todo desde que entraste en mi vida se siente mejor, cada momento que pase con vos, se sintio como estar en el cielo, yo te juro que quiero vivir toda mi vida con vos, porque si no, no seria feliz en mi vida entera</p>
+        <p>Si en algun momento vuelvo al pasado y pudiera elegir estar con vos, apenas me digan eso diria que si, porque sos lo mejor de mi vida, ni si quiera escucharia la otra opcion por eso te digo esto amor: <strong>te elegiría una y mil veces.</strong></p>
+        <p class="letter-signature">Con todo el amor que te tengo,<br><span>Att tu novio ♡</span></p>
+        <p class="edit-note">P.D. Te amo mucho</p>
+      </article>
+    </section>
+
+    <section class="section gallery-section">
+      <p class="eyebrow">NUESTROS RECUERDOS JUNTITOS</p>
+      <h2>Fotitos de nosotros <em>que guardo con todo mi amor</em></h2>
+      <p class="section-intro">Estas fotos son las que definien mi felicidad, vos.</p>
+      <div class="gallery">
+        <figure class="photo-card rotate-left">
+          <img src="Foto1.jpeg" alt="Reemplazá esta imagen por una foto de ustedes" />
+          <figcaption>Un recuerdo que me hace sonreír ♡</figcaption>
+        </figure>
+        <figure class="photo-card rotate-right">
+          <img src="Foto2.jpeg" alt="Reemplazá esta imagen por otra foto de ustedes" />
+          <figcaption>Mi lugar favorito es a tu lado</figcaption>
+        </figure>
+        <figure class="photo-card rotate-left-small">
+          <img src="Foto3.jpeg" alt="Reemplazá esta imagen por un recuerdo especial" />
+          <figcaption>Y los que todavía nos faltan ✨</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section music-section">
+      <div class="music-card">
+        <div class="music-disc" aria-hidden="true"><span>♫</span></div>
+        <div class="music-copy">
+          <p class="eyebrow">NUESTRA CANCIÓN</p>
+          <h2>Una canción <em>que amo porque pienso en vos</em></h2>
+          <p>Elegí esa canción que, apenas empieza, me hace pensar en nosotros.</p>
+          <label class="file-label" for="songFile">The first time we met</label>
+          <audio id="audioPlayer" controls preload="metadata" src="nuestra-cancion.mp3" autoplay loop></audio>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-heart">♡</div>
+      <h2>Hasta con todo esto<br>Todavia no llego a demostar <em>Cuanto te amo</em>.</h2>
+      <p>Para toda la vida, siempre juntos, sos lo unico que quiero</p>
+      <span class="closing-signature">Att tu novio, mi vida preciosa 💗</span>
+    </section>
+  </main>
+
+  <footer>esto va a ser algo que nunca se va a borrar, para nostoros ♡</footer>
+  <script src="script.js"></script>
+</body>
+</html>
